@@ -1,0 +1,471 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  background-color: #CCDBDC;
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 2px solid #003249;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-logo {
+    display: none;
+  }
+}
+
+.logo1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logo2 {
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 710px) {
+  #desktop {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  #mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+a {
+  color: #003249;
+  text-decoration: none;
+}
+
+.img-header {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #003249;
+  color: #CCDDBC;
+  font-family: "Oxygen", sans-serif;
+  font-size: 1rem;
+  padding: 8px 0;
+  border: 2px solid #003249l
+}
+
+@media only screen and (max-width: 710px) {
+  #learn {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+}
+
+#learn  {
+  background-color: #007EA7;
+  display: flex;
+}
+
+#learn h1 {
+  font-family: "Rufina", serif;
+  font-size: 2rem;
+}
+
+#learn h2 {
+  font-size: 1rem;
+  margin: 32px 0 24px 0;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-learn {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin: 32px 16px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  #practice {
+    padding-bottom: 16px;
+  }
+}
+
+#practice {
+  display: flex;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-practice-main {
+    display: none;
+  }
+}
+
+.holder-practice-main {
+  padding: 32px 24px;
+  border-right: 1px solid #007EA7;
+}
+
+.holder-img-practice {
+  width: 100%;
+  height: auto;
+}
+
+#practice h1 {
+  font-family: "Rufina", serif;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  margin: 32px 0 24px 0;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-course-text h3, p {
+    display: none;
+  }
+}
+
+.quoted {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-campus-info {
+    width: 100%;
+  }
+}
+
+.holder-campus-info {
+  min-width: 423px;
+}
+
+@media only screen and (max-width: 710px) {
+  .campus-info-single {
+    flex-flow: wrap column;
+    border: 0;
+    height: auto;
+  }
+}
+
+.campus-info-single {
+  display: flex;
+  min-height: 168px;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-img-campus-info {
+    min-width: 100%;
+    margin: 0;
+    padding: 16px;
+  }
+}
+
+.holder-img-campus-info {
+  max-width: 33%;
+  height: auto;
+}
+
+@media only screen and (max-width: 710px) {
+  .img-campus-info {
+    display: none;
+  }
+}
+
+.img-campus-info {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 710px) {
+  .img-campus-info-mobile {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .campus-info-text {
+    margin-left: 32px;
+    margin-bottom: 16px;
+  }
+}
+
+.campus-info-text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+#practice h3 {
+  font-family: "Rufina", serif;
+  font-size: 1.5rem;
+}
+
+#practice h4 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+#practice a {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 710px) {
+  .campus-info-single {
+    flex-flow: wrap column;
+    border: 0;
+    height: auto;
+  }
+}
+
+.campus-info-single {
+  display: flex;
+  min-height: 168px;
+}
+
+@media only screen and (max-width: 710px) {
+  #learning h1 {
+    font-family: "Rufina", serif;
+    font-size: 2rem;
+    padding: 32px 0 8px 0;
+    text-align: center;
+  }
+}
+
+#desktop {
+  display: block;
+}
+
+#desktop a {
+  margin-left: 16px;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-courses {
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.holder-courses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 710px) {
+  #learning h2 {
+    line-height: 0.5rem;
+  }
+}
+
+#learning h2 {
+  font-family: "Rufina", serif;
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+
+#learning h3 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.5rem;
+  margin: 8px 0;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-course-txt h3, p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-course {
+    width: 100%;
+    margin: 8px 16px;
+    padding: 0;
+  }
+}
+
+.holder-course {
+  background-color: #CCDBDC;
+}
+
+@media only screen and (max-width: 710px) {
+  #thesis {
+    padding-bottom: 24px;
+  }
+}
+
+#thesis h1 {
+  font-family: "Rufina", serif;
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-course-img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .course-img {
+    display: none;
+  }
+}
+
+.course-img {
+  width: 100%;
+  height: auto;
+}
+
+.holder-course-txt {
+  padding: 16px 16px;
+}
+
+@media only screen and (max-width: 710px) {
+  #learning h2 {
+    line-height: 0.5rem;
+  }
+}
+
+.holder-thesis {
+  width: 100%;
+  display: flex;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-vid {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-thesis-txt {
+    display: none;
+  }
+}
+
+.holder-thesis-txt {
+  margin: 24px 0 32px 24px;
+}
+
+#thesis h2 {
+  font-family: "Rufina", serif;
+  font-size: 1.5rem;
+}
+
+.holder-thesis-txt p {
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 710px) {
+  .holder-thesis-info {
+    display: none;
+  }
+}
+
+.holder-thesis-info {
+  min-width: 423px;
+  margin-left: 16px;
+}
+
+@media only screen and (max-width: 710px) {
+  .blue {
+    background-color: #CCDBDC;
+  }
+}
+
+.thesis-info-single {
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+}
+
+.holder-thesis-img {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.thesis-img {
+  width: 100%;
+  height: auto;
+}
+
+.thesis-info-txt {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+#thesis h3 {
+  font-family: "Rufina", serif;
+  font-size: 1.5rem;
+}
+
+#thesis h4 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+.copy {
+  display: block;
+  padding: 16px 0;
+}
+
+@media only screen and (max-width: 710px) {
+  .links {
+    display: none;
+  }
+}
+
+footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 710px) {
+  footer {
+    justify-content: flex-start;
+  }
+}
+
+footer {
+  background-color: #007EA7;
+  color: #003249;
+  padding: 0 24px;
+  border-top: 2px solid #003249;
+  display: flex;
+}
+
+@font-face {
+  font-family: "oxygen";
+  src: url()
+}
